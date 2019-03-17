@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"XYC/models"
 	"github.com/astaxie/beego"
 )
 
@@ -13,6 +14,7 @@ func (c *MainController) Index() {
 }
 
 func (c *MainController) Shop() {
+	c.Data["ps"] = models.GetProduct()
 	c.TplName = "shop.html"
 }
 

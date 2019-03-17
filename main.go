@@ -6,6 +6,5 @@ import (
 )
 
 func main() {
-	beego.Run("192.168.6.153:8080")
+	beego.Run("localhost:8080")
 }
-
