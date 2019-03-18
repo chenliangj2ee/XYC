@@ -66,9 +66,9 @@ Version: 1.0
 	$('#mainSlider').nivoSlider({
         directionNav: false,
         controlNavThumbs: false,
-        animSpeed: 2000,
+        animSpeed: 1000,
         slices: 18,
-        pauseTime: 5000,
+        pauseTime: 6000,
         pauseOnHover: false,
         controlNav: true,
         manualAdvance: false,
